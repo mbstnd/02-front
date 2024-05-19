@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.carousel-inner {
+    max-height : 50rem;
+}
+
+
+/* media query mobile */
+
+@media (max-width:768px) {
+    #intro, #nosotros {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+
+/* media query extra-sm */
+
+@media (max-width:576px){
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+/* Contacto */
+
+.left-content {
+    background: #08194a;
+    padding: 60px;
+    color: #fff;
+}
+
+.left-content h3 {
+    margin-botton: 20px;
+}
+
+label {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.contact .btn {
+    background: #08194a;
+    color: #fff;
+    display: inline-block;
+    margin-top:30px ;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer i {
+    font-size: 1.5em;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  footer i:hover {
+    transform: scale(1.2);
+    color:#c56f00 ;
+    transition: .3s;
+  }
+  
